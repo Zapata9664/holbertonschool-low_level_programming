@@ -1,0 +1,1 @@
+*En este repositorio se encuentra el proyecto hello_world, utilizando el lenguaje c*

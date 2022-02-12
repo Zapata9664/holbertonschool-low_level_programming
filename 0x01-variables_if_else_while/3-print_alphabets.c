@@ -1,4 +1,4 @@
-#include<stdio.h>
+0;136;0c#include<stdio.h>
 
 /**
  * main - Alphabet in lowercase, and then in uppercase
@@ -8,15 +8,15 @@
 
 int main(void)
 
-char a;
-char AB;
-for (ab = 'a' ; ab <= 'z' ; ab++)
+char ch;
+char CH;
+for (ch = 'a' ; ch <= 'z' ;ch++)
 {
-putchar(ab);
+putchar(ch);
 }
-for (AB = 'A' ; AB <= 'Z' ; AB++)
+for (CH = 'A' ; CH <= 'Z' ; CH++)
 {
-putchar(AB);
+putchar(CH);
 }
 putchar ('\n');
 return (0);

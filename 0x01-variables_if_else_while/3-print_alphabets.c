@@ -1,4 +1,4 @@
-0;136;0c#include<stdio.h>
+#include<stdio.h>
 
 /**
  * main - Alphabet in lowercase, and then in uppercase
@@ -7,10 +7,11 @@
  */
 
 int main(void)
-
+{
 char ch;
 char CH;
-for (ch = 'a' ; ch <= 'z' ;ch++)
+
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 putchar(ch);
 }
@@ -20,3 +21,4 @@ putchar(CH);
 }
 putchar ('\n');
 return (0);
+}

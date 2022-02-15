@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main
+ * main - imprime
  *
  * Return: (0)
  */

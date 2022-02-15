@@ -8,10 +8,10 @@
 
 void print_alphabet(void)
 {
-char ch;
-for (ch = 97 ; ch >= 122; ch++)
-{
-_putchar(ch);
-}
-_putchar(10);
+	char ch;
+	for (ch = 97; ch <= 122; ch++)
+	{
+		_putchar(ch);
+	}
+	_putchar(10);
 }

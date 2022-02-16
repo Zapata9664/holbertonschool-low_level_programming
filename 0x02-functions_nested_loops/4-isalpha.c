@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- * main - 
+ * _isalpha - print letter
+ * @c: character
  *
- * Return:
+ * Return: letter
  */
 
 int _isalpha(int c)

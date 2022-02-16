@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- * main - check islower
+ * _islower - print alphabet
+ * @c: letter
  *
- * Return:
+ * Return: letter
  */
 
 int _islower(int c)

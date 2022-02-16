@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * int _abs
+ * _abs - absolute value
+ * @n: letter
  *
- * Return: absolute value
+ * Return: number
  */
 
 int _abs(int n)

@@ -1,9 +1,10 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - chek the code
+ * print_alphabet_x10 - chek the code
  *
- *Return: Always 0.
+ *Return:
  */
 
 void print_alphabet_x10(void)

@@ -9,11 +9,12 @@
 
 void times_table(void)
 {
-	int a,b,c, modul, dec;
+	int a, b, c, modul, dec;
+
 	for (a = 0 ; a <= 9; a++)
 	{
 		for (b = 0 ; b <= 9; b++)
-		{	
+		{
 
 			c = a * b;
 		if (b != 0)
@@ -34,9 +35,9 @@ void times_table(void)
 			dec = (c - modul) / 10;
 
 			_putchar('0' + dec);
-			_putchar('0'+ modul);
+			_putchar('0' + modul);
 		}
-		else 
+		else
 		{
 			_putchar('0');
 		}

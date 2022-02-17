@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
- * more_numbers - numbers
+/**
+ * more_numbers - numbers 1 of 14
  *
- * Return: none
+ * Return: 0
  */
 
 void more_numbers(void)
+
 {
 	int a, b;
 

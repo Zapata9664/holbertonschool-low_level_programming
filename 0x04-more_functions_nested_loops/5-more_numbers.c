@@ -3,14 +3,14 @@
 
 /**
  * more_numbers - numbers 1 of 14
- *
  * Return: 0
  */
 
 void more_numbers(void)
 
 {
-	int a, b;
+	int a;
+	int b;
 
 	for (a = 0; a < 10; a++)
 	{
@@ -22,6 +22,6 @@ void more_numbers(void)
 			}
 			_putchar((b % 10) + '0');
 		}
-		_putchar(10);
+		_putchar('\n');
 	}
 }

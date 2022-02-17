@@ -5,7 +5,7 @@
 /**
  * _isupper - print alphabet
  * @c: letter
- * 
+ *
  * Return: letter
  */
 

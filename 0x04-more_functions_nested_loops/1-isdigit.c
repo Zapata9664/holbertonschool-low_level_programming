@@ -6,7 +6,7 @@
  * _isdigit - print number
  * @c: character
  *
- * Return: letter
+ * Return: number
  */
 
 int _isdigit(int c)

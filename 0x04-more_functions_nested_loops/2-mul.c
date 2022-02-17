@@ -5,7 +5,7 @@
  * mul - pint a integer
  * @a: letter
  * @b: letter b
- * 
+ *
  * Return: number
  */
 

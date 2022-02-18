@@ -2,7 +2,7 @@
 
 #include "main.h"
 
-/*
+/**
  * print_line - straight
  * @n: variable
  * return 0
@@ -10,7 +10,7 @@
 
 void print_line(int n)
 {
-  int i;
+	int i;
 
 	if (n > 0)
 	{

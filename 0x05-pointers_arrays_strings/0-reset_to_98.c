@@ -1,10 +1,9 @@
 #include<stdio.h>
-#include"main.h"
+#include "main.h"
 
 /**
- * void reset_to_98 - puntero
+ * reset_to_98 - agregar puntero
  * @n: parametro
- * @v: variable
  *
  * Return 0
  */

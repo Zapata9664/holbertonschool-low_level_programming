@@ -13,7 +13,7 @@ int _strlen(char *s)
 {
 	int longitud = 0;
 
-	while (s[longitud] != 48)
+	while (s[longitud] != '\0')
 		longitud++;
 	return (longitud);
 }

@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 #include "main.h"
 
 /**
  * _puts - print a string
- *
- * @str - varaible
+ * @str: parameter
  *
  * Return: 0
  */

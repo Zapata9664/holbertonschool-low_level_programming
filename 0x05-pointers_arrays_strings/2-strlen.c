@@ -1,19 +1,20 @@
 #include <stdio.h>
-
 #include "main.h"
 
 /**
- * _strlen - longitud de una cadena
- * @s: lenght
+ * _strlen - lenght of a string
+ * @s: ponter
  *
- * Return: 0
+ * Return: number
  */
 
 int _strlen(char *s)
 {
-	int longitud = 0;
-
-	while (s[longitud] != '\0')
-		longitud++;
-	return (longitud);
+	int count = 0;
+	while (*s != '\0')
+	{
+		count++;
+		s++;
+	}
+	return (count);
 }

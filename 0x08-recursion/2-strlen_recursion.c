@@ -5,6 +5,7 @@
  * _strlen_recursion - length of a sting
  * @s: string
  *
+ * Return: length
  */
 
 int _strlen_recursion(char *s)

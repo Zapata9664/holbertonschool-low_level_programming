@@ -3,9 +3,11 @@
 #include "main.h"
 
 /**
+ * main - print numbers
+ * @argc: size of argv
+ * @argv: program
  *
- *
- *
+ * Return: 0
  */
 
 int main(int argc, char *argv[])

@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #include "main.h"
 
 /**
@@ -13,8 +12,6 @@
 int main(int argc, char *argv)
 {
 	(void)argc;
-	{
-		printf("%S,\n" * argv);
-	}
+	printf("%S,\n" * argv);
 	return (0);
 }

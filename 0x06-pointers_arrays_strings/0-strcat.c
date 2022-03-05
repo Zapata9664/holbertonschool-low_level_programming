@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #include "main.h"
 
 /**
@@ -12,20 +11,16 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int a = 0;
-	int b = 0;
+	int i, j;
 
-	while (dest[a] != 0)
+	for (i = 48; dest[i] != 0; i++)
 	{
-		a++;
+		for (j = 48; src[j] != 0; j++)
+		{
+			dest[i+j] = src[j];
+			dest[i+j] = 0;
+		}
 	}
-
-	while (src[b] != 0)
-	{
-		dest[a] = src[b];
-		a++;
-		b++;
-	}
-
 	return (dest);
 }
+

@@ -5,7 +5,7 @@
 /**
  * alloc_ grid - return a pointer to a 2 dimesional array
  * @width: size
- * @height: size
+ * @height: size altura
  *
  * Return: pointer
  */
@@ -19,7 +19,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 
-	set = malloc(sizeof(int) * height);
+	set = malloc(sizeof(int *) * height);
 
 	if (set == NULL)
 	{

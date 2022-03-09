@@ -12,35 +12,35 @@
 
 int **alloc_grid(int width, int height)
 {
-	int a, b, **p;
+	int a, b, **set;
 
 	if (width <= 0 || height <= 0)
 	{
 		return (NULL);
 	}
 
-	p = malloc(sizeof(int) * height);
+	set = malloc(sizeof(int) * height);
 
-	if (p == NULL)
+	if (set == NULL)
 	{
 		return (NULL);
 	}
 	for (a = 0; a < height; a++)
 	{
-		p[a] = malloc(sizeof(int) * width);
-		if (p[a] == NULL)
+		set[a] = malloc(sizeof(int) * width);
+		if (set[a] == NULL)
 		{
 			for (a -= 1; a >= 0; a--)
 			{
-				free(p[a]);
+				free(set[a]);
 			}
-			free(p);
+			free(set);
 			return (NULL);
 		}
 		for (b = 0; b < width; b++)
 		{
-			p[a][b] = 0;
+			set[a][b] = 0;
 		}
 	}
-	return (p);
+	return (set);
 }

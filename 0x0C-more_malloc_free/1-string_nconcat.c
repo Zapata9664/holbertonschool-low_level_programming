@@ -6,12 +6,11 @@
  * @n: number of bytes
  * @s1: number of bytes
  * @s2: number of bytes
- * return: 0
+ * Return: 0
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-
 	int i = 0;
 	unsigned int j = 0;
 	int k = 0;
@@ -33,27 +32,22 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	}
 	while (s1[k] != 0)
-
 	{
 		ptr[k] = s1[k];
 		k++;
 	}
 		if (n >= j)
-		{
 		while (a < j)
 		{
 			ptr[k] = s2[a];
 			a++;
 		}
-		}
 		else
-		{
 		while (l < n)
 		{
 			ptr[k] = s2[l];
 			l++;
 			k++;
-		}
 		}
 		return (ptr);
 	}

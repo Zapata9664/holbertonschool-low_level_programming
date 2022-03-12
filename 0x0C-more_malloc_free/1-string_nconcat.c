@@ -2,52 +2,42 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - save memory
- * @n: number of bytes
- * @s1: number of bytes
- * @s2: number of bytes
- * Return: 0
- */
+* string_nconcat - concatenates two strings.
+* @s1: pointer
+* @s2: pointer
+* @n: int
+
+* Return: value 0
+*/
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i = 0;
-	unsigned int j = 0;
-	int k = 0;
-	unsigned int l = 0;
-	unsigned int a = 0;
-	char *ptr;
+char *str;
+unsigned int ref1, ref2;
 
-	while (s1[i] != 0)
-	{
-		i++;
-	}
-	while (s2[j] != 0)
-	{
-		j++;
-	}
-	ptr = malloc(j + i);
-	if (ptr == NULL)
-	{
-		return (NULL);
-	}
-	while (s1[k] != 0)
-	{
-		ptr[k] = s1[k];
-		k++;
-	}
-		if (n >= j)
-		while (a < j)
-		{
-			ptr[k] = s2[a];
-			a++;
-		}
-		else
-		while (l < n)
-		{
-			ptr[k] = s2[l];
-			l++;
-			k++;
-		}
-		return (ptr);
-	}
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
+
+ref1 = 0;
+
+while (s1[ref1] != '\0')
+ref1++;
+str = malloc(sizeof(char) * (ref1 + n + 1));
+if (str == NULL)
+return (NULL);
+ref1 = ref2 = 0;
+while (s1[ref1] != '\0')
+{
+str[ref1] = s1[ref1];
+ref1++;
+}
+while (ref2 < n && s2[ref2] != '\0')
+{
+str[ref1] = s2[ref2];
+ref1++, ref2++;
+}
+str[ref1] = '\0';
+return (str);
+}

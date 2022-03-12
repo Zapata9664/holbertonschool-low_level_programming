@@ -6,7 +6,6 @@
 * array_range - creates an array
 * @min: minimo
 * @max: maximo
-
 * Return: value 0
 */
 

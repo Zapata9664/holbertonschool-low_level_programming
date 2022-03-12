@@ -6,7 +6,6 @@
 * _calloc - allocates memory
 * @nmemb: pointer
 * @size: pointer
-
 * Return: value 0
 */
 

@@ -6,7 +6,6 @@
 * @s1: pointer
 * @s2: pointer
 * @n: int
-
 * Return: value 0
 */
 

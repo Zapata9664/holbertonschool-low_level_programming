@@ -1,6 +1,7 @@
+#include"dog.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "dog.h"
+
 
 /**
  * printf_dog - prints all the data
@@ -9,7 +10,7 @@
  * Return: nothing
  */
 
-void printf_dog(struct dog *d)
+void print_dog(struct dog *d)
 {
 	if (d != NULL)
 	{

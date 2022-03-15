@@ -17,12 +17,9 @@ struct dog
 	char *owner;
 };
 
-/**
- * change name of the struc whith typedef
- */
-
 typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
+
 #endif

@@ -4,7 +4,7 @@
 
 
 /**
- * printf_dog - prints all the data
+ * print_dog - prints all the data
  * @d: a dog structure
  *
  * Return: nothing

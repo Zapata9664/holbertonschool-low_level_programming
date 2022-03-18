@@ -3,23 +3,30 @@
 #include <string.h>
 #include "function_pointers.h"
 
-int main(int argc, char ** argv)
-{   
-    int a,b ;
-    char *op;
-    int result;
+/**
+ * main - main
+ * @argc: argc
+ * @argv: argv
+ * Return: 1
+ */
 
-    if (argc != 4)
-    {
-        printf("Error\n");
-        exit(99);
-    }
-     a = atoi (argv[1]);
-    op = argv[2];
-    b = atoi (argv[3]);
+int main(int argc, char **argv)
+{
+	int a, b;
+	char *op;
+	int result;
 
-    result =  (get_op_func(op))(a, b);
-    printf("%d\n", result);
+	if (argc != 4)
+	{
+		printf("Error\n");
+		exit(99);
+	}
+	a = atoi(argv[1]);
+	op = argv[2];
+	b = atoi(argv[3]);
 
-return (0);
+	result = (get_op_func(op))(a, b);
+	printf("%d\n", result);
+
+	return (0);
 }

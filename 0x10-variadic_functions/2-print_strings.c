@@ -1,16 +1,17 @@
-#include<stdarg.h>
+#include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
-
 #include "variadic_functions.h"
-    /**
-     * print_strings - Print strings with a separator.
-     * @separator: Separator
-     * @n: Quantity of numbers
-     *
-     * Return: string
-     */
-    void print_strings(const char *separator, const unsigned int n, ...)
+
+/**
+ * print_strings - print strings with a separator
+ * @separator: Separator
+ * @n: Quantity of numbers
+ *
+ * Return: string
+ */
+
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i = 0;
 	va_list arguments;

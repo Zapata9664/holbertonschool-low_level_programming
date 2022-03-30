@@ -1,26 +1,24 @@
 #include "lists.h"
 
 /**
- * 
- * 
- * 
- * 
- * 
+ * print_list - print a list
+ * @h: header
+ * return: count
  */
 
 size_t print_list(const list_t *h)
 {
-    int count = 0;
+	int count = 0;
 
-    if (h->str == NULL)
-    {
-        printf("[0] (nil)\n");
-    }
-    else
+	if (h->str == NULL)
+	{
+		printf("[0] (nil)\n");
+	}
+	else
 		{
 		printf("[%d] ", h->len);
-		printf("%s\n", h->str); 
-        }
+		printf("%s\n", h->str);
+		}
 
 		h = h->next;
 		count++;

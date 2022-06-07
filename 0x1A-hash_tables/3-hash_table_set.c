@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * replace_value - pre-existing key
+ * replace_v - pre-existing key
  * @ht: double pointer to the hash_node_t list
  * @key: name
  * @value: number
@@ -18,7 +18,7 @@ void replace_v(hash_node_t **ht, const char *key, const char *value)
 }
 
 /**
- * check_key - checks if a key exists
+ * c_key - checks if a key exists
  * @ht: pointer
  * @key: name
  *

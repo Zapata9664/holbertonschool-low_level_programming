@@ -6,12 +6,24 @@
 #include <unistd.h>
 #include <string.h>
 
+/**
+ * struct hash_noe_s - nodo
+ * @key: name
+ * @value: telephone
+ * @next: nex node
+ */
 typedef struct hash_node_s
 {
 	char *key;
 	char *value;
 	struct hash_node_s *next;
 } hash_node_t;
+
+/**
+ * struct hash_table_s - HS
+ * @size: Size
+ * @array: Array
+ */
 
 typedef struct hash_table_s
 {

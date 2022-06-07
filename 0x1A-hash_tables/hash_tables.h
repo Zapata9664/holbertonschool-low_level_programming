@@ -7,7 +7,8 @@
 #include <string.h>
 
 /**
- * struct hash_noe_s - nodo
+ * struct hash_node_s -  node of hs
+ *
  * @key: name
  * @value: telephone
  * @next: nex node
@@ -20,7 +21,8 @@ typedef struct hash_node_s
 } hash_node_t;
 
 /**
- * struct hash_table_s - HS
+ * struct hash_table_s - HS strucure
+ *
  * @size: Size
  * @array: Array
  */
